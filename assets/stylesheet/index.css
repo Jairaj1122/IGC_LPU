@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans:wght@700;900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Noto+Sans:wght@700;900&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(34deg, #23222A 33%, #44515D 100%);
+    background-size: contain; 
+    overflow-x: hidden;
+    width: 100vw;
+    height: 167vh;
+}
+.banner{
+    position: absolute;
+    top: 0vw;
+    left: 3vw;
+    color: #ffffff;
+    height: 5.3vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 1;
+}
+.banner .bar{
+    position: absolute;
+    top: 1.7vw;
+    height: 0.3vw;
+    width: 1.1vw;
+    background-color: #ffffff;
+    z-index: 2;
+    left: 1.5vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 5vw;
+    color: #b3aca2;
+    position: relative;
+    top: 2.8vw;
+    left: 16vw;
+    font-size: 0.7vw;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    width: 54vw;
+}
+nav a{
+    text-decoration: none;
+    color: #b3aca2;
+}
+.nav-bar:hover{
+    color: #ff7109;
+    cursor: pointer;
+}
+nav .bar{
+    width: 10vw;
+    height: 0.1vw;
+    background-color: #b3aca2;
+    position: relative;
+    top: 0.6vw;
+} 
+#active{
+    color: #ff7109;
+}
+.register-btn{
+    position: absolute;
+    top: 2.6vw;
+    right: 5vw;
+    color: #ffffff;
+    height: 2.7vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+}
+.flag{
+    position: relative;
+    height: 18vw;
+    width: 32vw;
+    left: 22vw;
+    top: -26vw;
+    z-index: -1;
+    transform: rotate(24deg);
+}
+.main-img{
+    position: absolute;
+    left: 46vw;
+    top: 15vh;
+    height: 34vw;
+    width: 48vw;
+}
+.sidebar{
+    color: #b3aca2;
+    display: flex;
+    flex-wrap: nowrap;
+    transform: rotateZ(-0.25turn);
+    column-gap: 3vw;
+    position: absolute;
+    left: -6vw;
+    width: 19vw;
+    height: 2vw;
+    top: 52.8vw;
+    font-size: 1vw;
+    font-family: 'Figtree', sans-serif;
+}  
+.sidebar a{
+    text-decoration: none;
+    color: #b3aca2;
+}
+.sidebar a:hover{
+    color: #ff7109;
+}
+
+.sidebar img{
+    height: 2vw;
+    width: 2vw;
+}
+.body{
+    position: absolute;
+    display: flex;
+    width: 20vw; 
+    color: rgb(236, 229, 229);
+    font-family: 'Figtree', sans-serif;
+}
+.body-0{
+    position: absolute;
+    display: flex;
+    font-size: 4.2vw;
+    width: 20vw;
+    font-family: 'Figtree', sans-serif;
+    top: 16vw;
+    left: 11vw;
+}
+.body-1{
+    color: #ff7109;
+    position: absolute;
+    display: flex;
+    font-size: 5.2vw;
+    width: 16vw;
+    font-family: 'Bebas Neue', sans-serif;
+    top: 20vw;
+    left: 11vw;
+} 
+.body-2{
+    position: absolute;
+    display: flex;
+    font-size: 4.2vw;
+    width: 19vw;
+    font-family: 'Figtree', sans-serif;
+    top: 25vw;
+    left: 11vw;
+}
+.main-page-image{
+    position: relative;
+    left: 0vw;
+    top: 6vh;
+    height: 28vw;
+    width: 48vw;
+}
+.nav-2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2vw;
+    top: 24vw;
+    transform: rotateZ(.25turn);
+    width: 30vw;
+    column-gap: 1.8vw;
+    left: 80.5vw;
+} 
+.nav-2 h1{
+    transform: rotateZ(-0.25turn);
+} 
+.nav-2 .bar{
+    top: 1.7vw;
+    width: 7vw;
+    height: 0.5vw;
+}
+footer{
+    display: flex;
+    position: absolute;
+    top: 144vh;
+    width: 100vw;
+    left: 0vw;
+    height: 10vw;
+    color: #ffffff;
+    font-family: 'Figtree', sans-serif;
+}
+footer .video-container{
+    width: 20vw;
+    height: 100%;
+    background-color: #ff7109;
+}
+.video-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer .elem{
+    background-color: #101016;
+    width: 15vw;
+    height: 100%;
+}
+.elem h2{
+    color: #ff7109;
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    font-size: 0.9vw;
+    width: 18vw;
+}
+.elem h1{
+    position: relative;
+    top: 3.3vw;
+    left: 2vw;
+    font-size: 1.2vw;
+    width: 18vw;
+}
+.elem p{
+    position: relative;
+    top: 4.3vw;
+    left: 2vw;
+    color: #b3aca2;
+    width: 10vw;
+    font-size: 1vw;
+    text-overflow: ellipsis;
+}
+.elem a{
+    text-decoration: none;
+    color: white;
+}
+.elem a:hover{
+    color: #ff7109;
+}
+.gradient-elem{
+    background-image: linear-gradient(2deg, #15171D, transparent);
+    width: 65vw;
+    height: 100%;
+    position: relative;
+}
+.gradient-elem .left{
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    font-size: 1.2vw;
+}
+.gradient-elem .p-left{
+    position: relative;
+    width: 20vw;
+    top: 3.3vw;
+    left: 2vw;
+    font-size: 0.8vw;
+    color: #b3aca2;
+}
+.gradient-elem h1{
+    position: relative;
+    top: -0.5vw;
+    left: 24vw;
+    font-size: 1.2vw;
+}
+.gradient-elem p{
+    position: relative;
+    width: 20vw;
+    top: 0.8vw;
+    left: 24vw;
+    font-size: 0.8vw;
+    color: #b3aca2;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vw;
+    width: 2vw;
+    height: 9vw;
+    position: absolute;
+    right: 2vw;
+    bottom: -1vw;
+}

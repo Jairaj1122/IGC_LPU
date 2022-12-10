@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(34deg, #23222A 33%, #44515D 100%);
+    background-size: contain;
+    width: 100vw;
+    height: 167vh;
+}
+a{
+    text-decoration: none;
+    color: #b3aca2;
+}
+.banner{
+    position: absolute;
+    top: 0vw;
+    left: 3vw;
+    color: #ffffff;
+    height: 5.3vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+}
+.banner .bar{
+    position: absolute;
+    top: 1.7vw;
+    height: 0.3vw;
+    width: 1.2vw;
+    background-color: #ffffff;
+    z-index: 2;
+    left: 1.5vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 5vw;
+    color: #b3aca2;
+    position: absolute;
+    top: 2.8vw;
+    left: 16vw;
+    font-size: 0.7vw;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    width: 54vw;
+}
+nav .bar{
+    width: 10vw;
+    height: 0.1vw;
+    background-color: #b3aca2;
+    position: relative;
+    top: 0.6vw;
+}
+#active{
+    color: #ff7109;
+}
+.register-btn{
+    position: absolute;
+    top: 2.6vw;
+    right: 5vw;
+    color: #ffffff;
+    height: 2.7vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+}
+.sidebar{
+    color: #b3aca2;
+    display: flex;
+    flex-wrap: nowrap;
+    transform: rotateZ(-0.25turn);
+    column-gap: 3vw;
+    position: absolute;
+    left: -6vw;
+    width: 19vw;
+    height: 2vw;
+    top: 52.8vw;
+    font-size: 1vw;
+    font-family: 'Figtree', sans-serif;
+}  
+.sidebar a{
+    text-decoration: none;
+    color: #b3aca2;
+}
+.sidebar a:hover{
+    color: #ff7109;
+}
+.nav-bar:hover{
+    color: #ff7109;
+    cursor: pointer;
+}
+.nav-2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2vw;
+    top: 24vw;
+    transform: rotateZ(.25turn);
+    width: 30vw;
+    column-gap: 1.8vw;
+    left: 80.5vw;
+}
+.nav-2 h1{
+    transform: rotateZ(-0.25turn);
+}
+.nav-2 .bar{
+    top: 1.7vw;
+    width: 7vw;
+    height: 0.5vw;
+}
+.body-text{
+    height: auto;
+    width: 75vw;
+    font-family: 'Figtree', sans-serif;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+}
+.body-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    color: #ff7109;
+}
+.body-text p{
+    color: #b3aca2;
+    font-size: 1.2vw;
+    position: relative;
+    left: 2vw;
+}
+#second{
+    top: 35vw;
+}
+#third{
+    top: 48vw;
+}
+#fourth{
+    top: 58vw;
+}
+footer{
+    display: flex;
+    position: absolute;
+    top: 144vh;
+    width: 100vw;
+    left: 0vw;
+    height: 10vw;
+    color: #ffffff;
+    font-family: 'Figtree', sans-serif;
+}
+footer .video-container{
+    width: 20vw;
+    height: 100%;
+    background-color: #ff7109;
+}
+.video-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer .elem{
+    background-color: #101016;
+    width: 15vw;
+    height: 100%;
+}
+.elem h2{
+    color: #ff7109;
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    font-size: 0.9vw;
+    width: 18vw;
+}
+.elem h1{
+    position: relative;
+    top: 3.3vw;
+    left: 2vw;
+    font-size: 1.2vw;
+    width: 18vw;
+}
+.elem p{
+    position: relative;
+    top: 4.3vw;
+    left: 2vw;
+    color: #b3aca2;
+    width: 10vw;
+    font-size: 1vw;
+    text-overflow: ellipsis;
+}
+.gradient-elem{
+    background-image: linear-gradient(2deg, #15171D, transparent);
+    width: 65vw;
+    height: 100%;
+    position: relative;
+}
+.gradient-elem .left{
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    font-size: 1.2vw;
+}
+.gradient-elem .p-left{
+    position: relative;
+    width: 20vw;
+    top: 3.3vw;
+    left: 2vw;
+    font-size: 0.8vw;
+    color: #b3aca2;
+}
+.gradient-elem h1{
+    position: relative;
+    top: -0.5vw;
+    left: 24vw;
+    font-size: 1.2vw;
+}
+.gradient-elem p{
+    position: relative;
+    width: 20vw;
+    top: 0.8vw;
+    left: 24vw;
+    font-size: 0.8vw;
+    color: #b3aca2;
+}
+.elem a:hover{
+    color: #ff7109;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vw;
+    width: 2vw;
+    height: 9vw;
+    position: absolute;
+    right: 2vw;
+    bottom: -1vw;
+}
